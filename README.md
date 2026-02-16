@@ -93,8 +93,12 @@ The following models were trained on each sampled dataset:
 
 ---
 
-## 🚀 How to Run the Project
+## Results Summary
+| Model                  | Original Data | Random Sampling | Stratified Sampling | Cluster Sampling | Bootstrap Sampling | SMOTE Oversampling |
+| ---------------------- | ------------- | --------------- | ------------------- | ---------------- | ------------------ | ------------------ |
+| Logistic Regression    | 0.9871        | 0.9828          | 0.9871              | 0.9871           | 0.9871             | 0.9397             |
+| Random Forest          | 0.9871        | 0.9871          | 0.9871              | 0.9871           | 0.9871             | 0.9914             |
+| Support Vector Machine | 0.9871        | 0.9871          | 0.9871              | 0.9871           | 0.9871             | 0.9655             |
+| K-Nearest Neighbors    | 0.9871        | 0.9871          | 0.9871              | 0.9871           | 0.9871             | 0.9483             |
+| Decision Tree          | 0.9741        | 0.9655          | 0.9828              | 0.9784           | 0.9871             | 0.9784             |
 
-### 🔧 Requirements
-```bash
-pip install pandas numpy scikit-learn imbalanced-learn
